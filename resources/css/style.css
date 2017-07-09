@@ -1,1 +1,41 @@
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  border-bottom: thin solid black;
+}
 
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  flex-grow: 1;
+}
+
+.logo span {
+  color: MediumAquamarine;
+  margin-left: 10px;
+}
+
+a {
+  color: black;
+}
+
+nav {
+  display: flex;
+  display: inline-block;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  padding-right: 30px;
+}
+
+nav span {
+  display: flex;
+  display: inline-block;
+  padding: 10px 10px;
+}
