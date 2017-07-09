@@ -7,6 +7,7 @@ header {
   position: fixed;
   width: 100%;
   border-bottom: thin solid black;
+  z-index: 1;
 }
 
 .logo {
@@ -38,4 +39,26 @@ nav span {
   display: flex;
   display: inline-block;
   padding: 10px 10px;
+}
+
+div {
+  border: 1px solid black;
+  display: block;
+}
+
+.content {
+  display: flex;
+  padding-top: 116px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
