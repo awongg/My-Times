@@ -51,6 +51,12 @@ div {
   padding-top: 116px;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
 .column.large {
   width: 630px;
 }
