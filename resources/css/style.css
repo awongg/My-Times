@@ -10,7 +10,7 @@ header {
   border-bottom: thin solid black;
   z-index: 1;
   background: white;
-  margin-top: 0;
+  top: 0;
 }
 
 .logo {
@@ -45,7 +45,7 @@ nav span {
 }
 
 div {
-  border: 1px solid black;
+
   display: block;
 }
 
@@ -79,6 +79,7 @@ div {
 
 .image {
   display: flex;
+  flex-direction: column;
   height: 300px;
   font-family: Georgia;
   font-size:30px;
@@ -86,6 +87,7 @@ div {
   color: white;
   text-align: center;
   margin-top: 10px;
+
 }
 
 .top-story .image {
@@ -98,15 +100,37 @@ div {
 
 .story .fall {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
-
 }
 
 .story .camera {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
-
 }
 
 .story .cat {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
 
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.stories .text {
+  margin-top: 20px;
+  height: 250px;
+}
+
+.text .h2 {
+
+}
+
+.story .image {
+  display: block;
+  flex-direction: row;
 }
